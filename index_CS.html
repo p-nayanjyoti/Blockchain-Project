@@ -1,0 +1,78 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>Electric Charging Station</title>
+  <style>
+    body {
+        background-image: url("https://s19536.pcdn.co/wp-content/uploads/2021/07/electriccar-1400.jpg");
+        height:100%;
+    text-align: center;
+    color: rgb(245, 248, 250);
+    font-family: Arial, Helvetica, sans-serif;
+
+        }
+ </style>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  
+  <script charset="utf-8" src="https://cdn.ethers.io/scripts/ethers-v4.min.js" type="text/javascript">
+  </script>
+
+  
+    <div><h2>Join our community.</h2>
+      <h3>Become a part of our family.</h3><br></div>
+
+      <div class="login-box " style="display:flex;
+      justify-content: center;">
+      
+			
+        <form >
+          <h2>CHARGING STATION INTERFACE</h2>
+          
+          <div class="user-box">
+          <input type="number" name="xaxis" id ="xaxis" required="">
+          <label>Enter x-axis of your location</label>
+          </div>
+          <div class="user-box">
+          <input type="number" name="yaxis" id="yaxis" required="">
+          <label>Enter y-axis of your location</label>
+          </div>
+          <div class="user-box">
+            <input type="number" name="ppu" id="ppu"required="">
+            <label>Enter Price per Unit</label>
+          </div>
+          <div class="user-box">
+            <input type="number" name="waittime" id="waittime" required="">
+            <label>Enter Waiting Time</label>
+          </div>
+          <div class="control">
+            <label>Is Fast Charging Available?</label><br>
+              <input type="radio" id="fastchrg" name="fastchrg" value="true">True
+               <input type="radio" id="fastchrg" name="fastchrg" value="false">False
+              
+             
+          </div>
+          
+          
+          <a href="#" onclick="addcs()" >
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Submit
+          </a>
+        </form>
+        </div>
+      
+
+  <script src="./app.js"></script>
+   
+  </script>
+</body>
+
+</html>
